@@ -8,6 +8,9 @@ Simple YOLOv8-based helmet detection project using a custom-trained model.
 - `app.py` and `run_yolo.py` are other entry points in the project.
 - Model weights: `best.pt` (not included in this README; keep it in the same folder).
 
+### Example Detection
+![Helmet Detection Screenshot](Hel.png)
+
 ## Repository structure
 - `app.py` — main application script (your web/app entrypoint).
 - `run_yolo.py` — example script demonstrating loading the model and running predictions.
