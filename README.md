@@ -1,6 +1,24 @@
-# Helmet Detection Project
+# DS-Project — Helmet Detection
 
-Simple YOLOv8-based helmet detection project using a custom-trained model.
+A data science and computer vision project for helmet detection using YOLOv8.
+
+## Project Structure
+
+```
+DS-Project/
+├── Usman Model/                    # Main project folder
+│   ├── README.md                   # Detailed setup and usage guide
+│   ├── app.py                      # Main application entrypoint
+│   ├── run_yolo.py                 # YOLO model demo script
+│   ├── onlyvideo.py                # Interactive video detection demo
+│   ├── best.pt                     # Trained YOLO model weights
+│   ├── helmet.mp4                  # Example video file (optional)
+│   ├── Hel.png                     # Screenshot of detection results
+│   ├── run_app.bat                 # Windows shortcut to run app.py
+│   ├── Requirements                # Python dependencies
+│   └── __pycache__/                # Compiled Python files
+└── README.md                       # This file
+```
 
 ## Overview
 - Uses Ultralytics YOLO to detect helmets in images/video.
@@ -8,13 +26,12 @@ Simple YOLOv8-based helmet detection project using a custom-trained model.
 - `app.py` and `run_yolo.py` are other entry points in the project.
 - Model weights: `best.pt` (not included in this README; keep it in the same folder).
 
+### Example Detection
+![Helmet Detection Screenshot](Usman%20Model/Hel.png)
+
 ## Repository structure
-- `app.py` — main application script (your web/app entrypoint).
-- `run_yolo.py` — example script demonstrating loading the model and running predictions.
-- `onlyvideo.py` — video demo that opens a resizable window, draws boxes, and provides keyboard controls.
-- `best.pt` — trained YOLO weights (place in this folder).
-- `helmet.mp4` — example video used by `onlyvideo.py` (place in this folder or update the path).
-- `run_app.bat` — Windows double-clickable script to activate the venv and run `app.py`.
+- All project files are located in the **`Usman Model/`** folder (see structure above).
+- See [Usman Model/README.md](Usman%20Model/README.md) for detailed setup and usage instructions.
 
 ## Requirements
 - Python 3.10+ recommended
